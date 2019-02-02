@@ -1,0 +1,20 @@
+@media only screen and (max-width: 900px){
+  .contact{
+    flex-direction: column;
+  }
+  .contact input{
+    margin: 5px!important;
+  }
+  .contact .button{
+    padding: 15px;
+  }
+  .grid{
+    grid-template-columns: repeat(2, minmax(100px, 1fr))!important;
+  }
+  .about__images{
+    display: none;
+  }
+  .about__info{
+    padding: 0 30px;
+  }
+}
