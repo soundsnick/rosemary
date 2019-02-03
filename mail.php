@@ -9,7 +9,11 @@
     $headers  = "Content-type: text/html; charset=utf-8 \r\n";
     $headers .= "From: Mishki Roze <support@rosemary.kz>\r\n";
     $headers .= "Bcc: support@rosemary.kz\r\n";
-    mail($to, $subject, $message, $headers);
+    // mail($to, $subject, $message, $headers);
+    mail("soundsnick@gmail.com", "the subject", $message,
+     "From: support@rosemary.kz\r\n"
+    ."Reply-To: support@rosemary.kz\r\n"
+    ."X-Mailer: PHP/" . phpversion());
     echo 'Спасибо. Мы с вами свяжемся';
   }
   else{
