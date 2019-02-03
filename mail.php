@@ -6,11 +6,11 @@
 
     $message = $_POST['phone'].':'.$_POST['name'];
 
-    $headers  = "Content-type: text/html; charset=windows-1251 \r\n";
+    $headers  = "Content-type: text/html; charset=utf-8 \r\n";
     $headers .= "From: Mishki Roze <support@rosemary.kz>\r\n";
     $headers .= "Bcc: support@rosemary.kz\r\n";
     mail($to, $subject, $message, $headers);
-    echo 'Спасибо! Мы с вами свяжемся!';
+    echo 'Спасибо. Мы с вами свяжемся';
   }
   else{
     echo 'Ошибка, форма заполнена неправильно';
