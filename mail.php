@@ -1,14 +1,14 @@
 <?php
   if($_POST['phone'] && $_POST['phone'] != '' && $_POST['name'] && $_POST['name'] != ''){
-    $to  = "soundsnick@gmail.com";
+    $to  = "<soundsnick@gmail.com>";
 
     $subject = "Мишки";
 
     $message = $_POST['phone'].':'.$_POST['name'];
 
     $headers  = "Content-type: text/html; charset=windows-1251 \r\n";
-    $headers .= "From: Mishki Roze <birthday@example.com>\r\n";
-    $headers .= "Bcc: birthday-archive@example.com\r\n";
+    $headers .= "From: Mishki Roze <support@rosemary.kz>\r\n";
+    $headers .= "Bcc: support@rosemary.kz\r\n";
     mail($to, $subject, $message, $headers);
     echo 'Спасибо! Мы с вами свяжемся!';
   }
