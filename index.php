@@ -24,7 +24,7 @@
       </form>
     </div>
   </section>
-  <section class="section-second">
+  <section class="section-second" style="background: #fff;">
     <div class="container">
       <div class="grid">
         <div class="block">
@@ -42,25 +42,6 @@
         <div class="block">
           <img src="assets/images/alergia.png" alt="">
           <p class="block__paragraph">Сделаны из экологически чистых материалов</p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="section-catalog">
-    <div class="container">
-      <h2 class="title">Каталог</h2>
-      <div class="grid" style="grid-template-columns: repeat(3, minmax(100px, 1fr))">
-        <div class="block bl">
-          <img class="img" src="assets/images/406a10a5d0f7c2e69458.png" alt="">
-          <a href="lenta.php" class="block__button">Мишки с лентой</a>
-        </div>
-        <div class="block bl">
-          <img class="img" src="assets/images/342-min.png" alt="">
-          <a href="heart.php" class="block__button">Мишки с сердцем</a>
-        </div>
-        <div class="block bl">
-          <img class="img" src="assets/images/d4b4e7f4ad96ef3418c2.png" alt="">
-          <a href="premium.php" class="block__button">Премиум мишки</a>
         </div>
       </div>
     </div>
