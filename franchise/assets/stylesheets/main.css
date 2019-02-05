@@ -268,6 +268,15 @@ ol li:before {
 
 
 @media only screen and (max-width: 900px){
+  .contact{
+    flex-direction: column;
+  }
+  .contact input{
+    margin: 5px!important;
+  }
+  .contact .button{
+    padding: 15px;
+  }
   .two-grid {
       flex-direction: column;
   }
@@ -318,7 +327,7 @@ ol li:before {
   position: fixed;
 box-shadow: 0 1px 10px rgba(0,0,0,.03);
 width: 100%;
-z-index: 999999;  
+z-index: 999999;
 }
 .logo{
   height: 100%;

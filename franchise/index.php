@@ -14,7 +14,7 @@
 </head>
 <body>
   <header id="top" class="header">
-    <div class="container flex">
+    <div class="container" style="display: flex;">
       <div class="logo--wrapper">
         <a href="/"><div class="logo"></div></a>
       </div>
