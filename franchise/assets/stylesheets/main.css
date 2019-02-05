@@ -231,6 +231,41 @@ ol li:before {
     counter-increment: item;
     color: red;
 }
+.contact{
+  display: flex;
+  padding-bottom: 120px;
+}
+.contact input{ flex: 1; }
+.contact .field{
+  margin: 0 5px;
+  padding: 15px 20px;
+  font-family: inherit;
+  font-size: 17px;
+  border: none;
+  border-radius: 8px;
+  background: #f7f7f7;
+  box-shadow: 0 1px 3px rgba(0,0,0,.1);
+  outline: none;
+}
+.contact .button{
+  margin: 0 5px;
+  border: none;
+  border-radius: 8px;
+  font-family: inherit;
+  font-size: 16px;
+  text-transform: uppercase;
+  background: #f0697c;
+  color: #fff;
+  font-weight: 500;
+  outline: none;
+  box-shadow: 0 1px 3px rgba(0,0,0,.1);
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.contact .button:hover{
+  background: #fd566e;
+}
+
 
 @media only screen and (max-width: 900px){
   .two-grid {
@@ -280,6 +315,10 @@ ol li:before {
 .header{
   height: 60px;
   background: #fff;
+  position: fixed;
+box-shadow: 0 1px 10px rgba(0,0,0,.03);
+width: 100%;
+z-index: 999999;  
 }
 .logo{
   height: 100%;

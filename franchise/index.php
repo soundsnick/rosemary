@@ -4,7 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Мишки из розы</title>
+  <title>Франшиза Мишки из роз Rosemary</title>
+  <meta name="Description" content="Мишки из искусственных 3D роз дешево с бесплатной доставкой">
+<meta name="Keywords" content="мишки из роз, розы, цветы, мишки, тедди, тедди бир, teddy bear, mishka, rose teddies, rosemary, RoseMary, розмари">
+
   <link rel="stylesheet" href="assets/stylesheets/main.css">
   <link href="https://fonts.googleapis.com/css?family=Comfortaa:300,400,700" rel="stylesheet">
 </head>
@@ -231,6 +234,16 @@
           <img src="assets/images/last.png" alt="" class="pink-image">
         </div>
       </div>
+    </div>
+  </section>
+  <section class="section-forms">
+    <div class="container">
+      <h1 class="title">Оставьте контакты и мы свяжемся с вами</h1>
+      <form class="contact" action="mail.php" method="post">
+        <input class="field" type="tel" name="phone" placeholder="+7 700 123 12 34">
+        <input class="field" type="text" name="name" placeholder="Ваше имя">
+        <input class="button" type="submit" value="Заказать звонок">
+      </form>
     </div>
   </section>
   <section class="section-contact">

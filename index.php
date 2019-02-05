@@ -4,7 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Интернет Магазин Мишки</title>
+  <meta name="Description" content="Мишки из искусственных 3D роз дешево с бесплатной доставкой">
+<meta name="Keywords" content="мишки из роз, розы, цветы, мишки, тедди, тедди бир, teddy bear, mishka, rose teddies, rosemary, RoseMary, розмари">
+
+  <title>Магазин Мишек из роз Rosemary</title>
   <link href="https://fonts.googleapis.com/css?family=Comfortaa:300,400,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Pacifico&amp;subset=cyrillic" rel="stylesheet">
   <link rel="stylesheet" href="assets/stylesheets/master.css">
@@ -129,7 +132,7 @@
       </div>
     </div>
   </section>
-  <section class="section-otzyv">
+  <!-- <section class="section-otzyv">
     <div class="container">
       <h1 class="title">Отзывы</h1>
       <div class="owl-carousel">
@@ -138,7 +141,7 @@
         <div class="otzyv"><img src="assets/images/otzyv/1.jpg" alt=""></div>
       </div>
     </div>
-  </section>
+  </section> -->
   <section class="section-contact">
     <div class="container">
       <h1 class="title">Остались вопросы?</h1>
@@ -158,6 +161,14 @@
       <b>Телефон:</b> 8 (747) 711 21 51, 8 (747) 338 90 60</b><br>
       <b>ИНН</b> 56120359
       </p>
+    </div>
+  </section>
+  <section class="section-contacts">
+    <div class="container">
+      <h1 class="contacts">Звоните или Whatsapp: <br>8 (747) 711 21 51 - Рахат<br>8 (747) 338 90 60 - Санжар</h1>
+      <div class="contact__instagram--wrapper">
+        <a class="contact__instagram" href="https://instagram.com/rosemary_franchise">@rosemary_franchise</a>
+      </div>
     </div>
   </section>
   <?php require_once('template/footer.php') ?>
