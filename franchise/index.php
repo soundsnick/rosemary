@@ -9,6 +9,17 @@
   <link href="https://fonts.googleapis.com/css?family=Comfortaa:300,400,700" rel="stylesheet">
 </head>
 <body>
+  <header id="top" class="header">
+    <div class="container flex">
+      <div class="logo--wrapper">
+        <a href="/"><div class="logo"></div></a>
+      </div>
+      <nav class="navigation flex-1">
+        <a href="/" class="navigation--item">Обратно в магазин</a>
+      </nav>
+    </div>
+  </header>
+
   <section class="section-first">
     <div class="container flex">
       <div class="header__container">

@@ -17,4 +17,6 @@
   .about__info{
     padding: 0 30px;
   }
+  .grid-two{ grid-template-columns:  repeat(1, minmax(100px, 1fr))!important;}
+  .section-upakovka{ background-size: 100% auto!important;}
 }

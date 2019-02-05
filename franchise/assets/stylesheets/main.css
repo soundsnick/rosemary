@@ -277,3 +277,37 @@ ol li:before {
     text-align: center;
   }
 }
+.header{
+  height: 60px;
+  background: #fff;
+}
+.logo{
+  height: 100%;
+  width: 50px;
+  background-image: url(../../../assets/images/logo.png);
+  background-size: 206%;
+  background-position: center;
+}
+.logo--wrapper{
+  height: 60px;
+  /* padding: 10px; */
+}
+.navigation{
+  text-align: right;
+  line-height: 60px;
+}
+.navigation--item{
+  margin-left: 15px;
+  color: grey;
+  transition: color 0.2s;
+}
+.navigation--item:hover{
+  color: #282828;
+}
+a{
+  text-decoration: none;
+}
+.flex{
+  display: flex;
+}
+.flex-1{ flex: 1; }
