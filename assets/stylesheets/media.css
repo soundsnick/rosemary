@@ -67,4 +67,15 @@
       margin-right: 15px;
       float: left;
   }
+  .whom-block img{
+    float: left;
+    margin-right: 15px;
+  }
+  .whom-block {
+    padding: 20px!important;
+    border-bottom: 10px solid #f7f7f7;
+  }
+  .section-upakovka{
+    display: none;
+  }
 }
