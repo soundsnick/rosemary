@@ -161,7 +161,7 @@
   <section class="section-we">
     <div class="container">
       <h1 class="title">Контакты</h1>
-      <p class="we__description"><b>Email:</b> rosemary_gifts@gmail.com<br>
+      <p class="we__description"><b>Email:</b> rosemary.gifts.kz@gmail.com<br>
       <b>Телефон:</b> 8 (747) 711 21 51, 8 (747) 338 90 60</b><br>
       <b>ИНН</b> 56120359
       </p>

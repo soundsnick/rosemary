@@ -10,7 +10,7 @@
     $headers .= "From: Mishki Roze <support@rosemary.kz>\r\n";
     $headers .= "Bcc: support@rosemary.kz\r\n";
     // mail($to, $subject, $message, $headers);
-    mail("rosemary_gifts@gmail.com", $subject, $message,
+    mail("rosemary.gifts.kz@gmail.com", $subject, $message,
      "From: support@rosemary.kz\r\n"
     ."Reply-To: support@rosemary.kz\r\n");
     echo 'Спасибо. Мы с вами свяжемся';
