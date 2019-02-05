@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" type="image/png" href="favicon.png" />
   <meta name="Description" content="Мишки из искусственных 3D роз дешево с бесплатной доставкой">
 <meta name="Keywords" content="мишки из роз, розы, цветы, мишки, тедди, тедди бир, teddy bear, mishka, rose teddies, rosemary, RoseMary, розмари">
 
@@ -56,7 +57,7 @@
       </div>
     </div>
   </section>
-  <!-- <section class="section-about" id="about">
+  <section class="section-about" id="about">
     <div class="container">
       <h2 class="title">О мишках</h2>
       <div class="about-bloc">
@@ -72,27 +73,30 @@
         <p class="about-block__paragraph">Мишка из роз не только порадует вашу любимую, но и останется украшением интерьера её комнаты до 5 лет в отличие от обычных цветов! Он не боится крепких объятий, падений и влаги!</p>
       </div>
     </div>
-  </section> -->
-  <section class="section-upakovka" style="height: 100vh; background-image: url(assets/images/items/sostav.png); background-size: auto 100%; background-repeat: no-repeat; background-position: center; background-color: #fff;"></section>
-  <section class="section-upakovka" style="height: 100vh; background-image: url(assets/images/items/prese.png); background-size: auto 100%; background-repeat: no-repeat; background-position: center; background-color: #fff;"></section>
-  <!-- <section class="section-whom">
+  </section>
+  <section id="ab" class="section-upakovka" style="height: 100vh; background-image: url(assets/images/items/sostav.png); background-size: auto 100%; background-repeat: no-repeat; background-position: center; background-color: #fff;"></section>
+  <section id="up" class="section-upakovka" style="height: 100vh; background-image: url(assets/images/items/prese.png); background-size: auto 100%; background-repeat: no-repeat; background-position: center; background-color: #fff;"></section>
+  <section class="section-whom">
     <div class="container">
-      <div class="grid" style="grid-template-columns: repeat(3, minmax(100px, 1fr))">
+      <div class="" style="grid-template-columns: repeat(3, minmax(100px, 1fr))">
         <div class="whom-block">
+          <img src="assets/images/who1.jpg" alt="">
           <h2 class="whom-block__title">Любимой девушке</h2>
           <p class="whom-block__paragraph">Сделайте оригинальный подарок своей любимой девушке. Удивите на первом свидании или подарите мишку на долгую память! Мишка из роз может быть как полноценным подарком, который заменит и мягкую игрушку и цветы, так и дополнительным сюрпризом к более волнительному моменту.</p>
         </div>
         <div class="whom-block">
+          <img src="assets/images/who2.jpg" alt="">
           <h2 class="whom-block__title">Маме, бабушке</h2>
           <p class="whom-block__paragraph">Давно дарили маме цветы? Говорили что любите её? Сделайте подарок самому родному человеку, пусть украшает её комнату и приятно благоухает ароматом ванили.</p>
         </div>
         <div class="whom-block">
+          <img src="assets/images/who3.jpg" alt="">
           <h2 class="whom-block__title">Сестрёнке, ребёнку</h2>
           <p class="whom-block__paragraph">Дети тоже любят мишек из роз. Вы можете сделать сюрприз младшей сестрёнке или племяннице. Девочкам очень нравятся яркие цветочные фигурки мишек.</p>
         </div>
       </div>
     </div>
-  </section> -->
+  </section>
   <section class="section-upakovka" style="height: 100vh; background-image: url(assets/images/items/upakovka.png); background-size: auto 100%; background-repeat: no-repeat; background-position: center; background-color: #fff;"></section>
   <section class="section-delivery">
     <div class="container">

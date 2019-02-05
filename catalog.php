@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Каталог мишек</title>
+  <link rel="icon" type="image/png" href="favicon.png" />
   <link href="https://fonts.googleapis.com/css?family=Comfortaa:300,400,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Pacifico&amp;subset=cyrillic" rel="stylesheet">
   <link rel="stylesheet" href="assets/stylesheets/master.css">
@@ -25,105 +26,143 @@
     </div>
   </section>
   <section class="section-cat">
-    <h1 class="title" style="text-align: center; padding-top: 50px;">Общий каталог</h1>
+    <h1 class="title" style="text-align: center; padding-top: 50px;">Мишки с лентой</h1>
+    <div class="container">
+      <div class="grid" style="grid-gap: 20px;">
+        <div class="item">
+          <div class="item__img">
+            <img src="assets/images/items/11.jpg" alt="">
+          </div>
+          <h3 class="item__title">Белый мишка из роз с лентой</h3>
+          <span class="item__cost">13000 тг</span>
+          <a href="#top" class="item__button">Заказать</a>
+        </div>
+        <div class="item">
+          <div class="item__img">
+            <img src="assets/images/items/12.jpg" alt="">
+          </div>
+          <h3 class="item__title">Красный мишка из роз с лентой</h3>
+          <span class="item__cost">13000 тг</span>
+          <a href="#top" class="item__button">Заказать</a>
+        </div>
+
+        <!--  -->
+        <div class="item">
+          <div class="item__img">
+            <img src="assets/images/items/13.jpg" alt="">
+          </div>
+          <h3 class="item__title">Голубой мишка из роз с лентой</h3>
+          <span class="item__cost">13000 тг</span>
+          <a href="#top" class="item__button">Заказать</a>
+        </div>
+        <div class="item">
+          <div class="item__img">
+            <img src="assets/images/items/14.jpg" alt="">
+          </div>
+          <h3 class="item__title">Розовый мишка из роз с лентой</h3>
+          <span class="item__cost">13000 тг</span>
+          <a href="#top" class="item__button">Заказать</a>
+        </div>
+        <div class="item">
+          <div class="item__img">
+            <img src="assets/images/items/15.jpg" alt="">
+          </div>
+          <h3 class="item__title">Серый мишка из роз с лентой</h3>
+          <span class="item__cost">13000 тг</span>
+          <a href="#top" class="item__button">Заказать</a>
+        </div>
+        <div class="item">
+          <div class="item__img">
+            <img src="assets/images/items/16.jpg" alt="">
+          </div>
+          <h3 class="item__title">Фиолетовый мишка из роз с лентой</h3>
+          <span class="item__cost">13000 тг</span>
+          <a href="#top" class="item__button">Заказать</a>
+        </div>
+        <div class="item">
+          <div class="item__img">
+            <img src="assets/images/items/17.jpg" alt="">
+          </div>
+          <h3 class="item__title">Синий мишка из роз с лентой</h3>
+          <span class="item__cost">13000 тг</span>
+          <a href="#top" class="item__button">Заказать</a>
+        </div>
+        <div class="item">
+          <div class="item__img">
+            <img src="assets/images/items/18.jpg" alt="">
+          </div>
+          <h3 class="item__title">Пурпурный мишка из роз с лентой</h3>
+          <span class="item__cost">13000 тг</span>
+          <a href="#top" class="item__button">Заказать</a>
+        </div>
+        <div class="item">
+          <div class="item__img">
+            <img src="assets/images/items/19.jpg" alt="">
+          </div>
+          <h3 class="item__title">Бордовый мишка из роз с лентой</h3>
+          <span class="item__cost">13000 тг</span>
+          <a href="#top" class="item__button">Заказать</a>
+        </div>
+        <!--  -->
+
+      </div>
+    </div>
+
+    <h1 class="title" style="text-align: center; padding-top: 50px;">Мишки с сердцем</h1>
     <div class="container">
       <div class="grid" style="grid-gap: 20px;">
         <div class="item">
           <div class="item__img">
             <img src="assets/images/items/1.jpg" alt="">
           </div>
-          <h3 class="item__title">Красный мишка из роз с сердцем 40 см</h3>
-          <span class="item__cost">15000 тг</span>
+          <h3 class="item__title">Белый мишка из роз с сердцем</h3>
+          <span class="item__cost">13000 тг</span>
           <a href="#top" class="item__button">Заказать</a>
         </div>
         <div class="item">
           <div class="item__img">
-            <img src="assets/images/items/2.png" alt="">
+            <img src="assets/images/items/2.jpg" alt="">
           </div>
-          <h3 class="item__title">Красный мишка из роз с сердцем 40 см</h3>
-          <span class="item__cost">15000 тг</span>
+          <h3 class="item__title">Красный мишка из роз с сердцем</h3>
+          <span class="item__cost">13000 тг</span>
+          <a href="#top" class="item__button">Заказать</a>
+        </div>
+
+        <!--  -->
+        <div class="item">
+          <div class="item__img">
+            <img src="assets/images/items/3.jpg" alt="">
+          </div>
+          <h3 class="item__title">Голубой мишка из роз с сердцем</h3>
+          <span class="item__cost">13000 тг</span>
           <a href="#top" class="item__button">Заказать</a>
         </div>
         <div class="item">
           <div class="item__img">
-            <img src="assets/images/items/3.png" alt="">
+            <img src="assets/images/items/4.jpg" alt="">
           </div>
-          <h3 class="item__title">Красный мишка из роз с сердцем 40 см</h3>
-          <span class="item__cost">15000 тг</span>
+          <h3 class="item__title">Розовый мишка из роз с сердцем</h3>
+          <span class="item__cost">13000 тг</span>
           <a href="#top" class="item__button">Заказать</a>
         </div>
         <div class="item">
           <div class="item__img">
-            <img src="assets/images/items/4.png" alt="">
+            <img src="assets/images/items/5.jpg" alt="">
           </div>
-          <h3 class="item__title">Красный мишка из роз с сердцем 40 см</h3>
-          <span class="item__cost">15000 тг</span>
+          <h3 class="item__title">Серый мишка из роз с сердцем</h3>
+          <span class="item__cost">13000 тг</span>
           <a href="#top" class="item__button">Заказать</a>
         </div>
         <div class="item">
           <div class="item__img">
-            <img src="assets/images/items/1.jpg" alt="">
+            <img src="assets/images/items/6.jpg" alt="">
           </div>
-          <h3 class="item__title">Красный мишка из роз с сердцем 40 см</h3>
-          <span class="item__cost">15000 тг</span>
+          <h3 class="item__title">Черный мишка из роз с сердцем</h3>
+          <span class="item__cost">13000 тг</span>
           <a href="#top" class="item__button">Заказать</a>
         </div>
-        <div class="item">
-          <div class="item__img">
-            <img src="assets/images/items/2.png" alt="">
-          </div>
-          <h3 class="item__title">Красный мишка из роз с сердцем 40 см</h3>
-          <span class="item__cost">15000 тг</span>
-          <a href="#top" class="item__button">Заказать</a>
-        </div>
-        <div class="item">
-          <div class="item__img">
-            <img src="assets/images/items/3.png" alt="">
-          </div>
-          <h3 class="item__title">Красный мишка из роз с сердцем 40 см</h3>
-          <span class="item__cost">15000 тг</span>
-          <a href="#top" class="item__button">Заказать</a>
-        </div>
-        <div class="item">
-          <div class="item__img">
-            <img src="assets/images/items/4.png" alt="">
-          </div>
-          <h3 class="item__title">Красный мишка из роз с сердцем 40 см</h3>
-          <span class="item__cost">15000 тг</span>
-          <a href="#top" class="item__button">Заказать</a>
-        </div>
-        <div class="item">
-          <div class="item__img">
-            <img src="assets/images/items/1.jpg" alt="">
-          </div>
-          <h3 class="item__title">Красный мишка из роз с сердцем 40 см</h3>
-          <span class="item__cost">15000 тг</span>
-          <a href="#top" class="item__button">Заказать</a>
-        </div>
-        <div class="item">
-          <div class="item__img">
-            <img src="assets/images/items/2.png" alt="">
-          </div>
-          <h3 class="item__title">Красный мишка из роз с сердцем 40 см</h3>
-          <span class="item__cost">15000 тг</span>
-          <a href="#top" class="item__button">Заказать</a>
-        </div>
-        <div class="item">
-          <div class="item__img">
-            <img src="assets/images/items/3.png" alt="">
-          </div>
-          <h3 class="item__title">Красный мишка из роз с сердцем 40 см</h3>
-          <span class="item__cost">15000 тг</span>
-          <a href="#top" class="item__button">Заказать</a>
-        </div>
-        <div class="item">
-          <div class="item__img">
-            <img src="assets/images/items/4.png" alt="">
-          </div>
-          <h3 class="item__title">Красный мишка из роз с сердцем 40 см</h3>
-          <span class="item__cost">15000 тг</span>
-          <a href="#top" class="item__button">Заказать</a>
-        </div>
+        <!--  -->
+
       </div>
     </div>
   </section>

@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Франшиза Мишки из роз Rosemary</title>
+  <link rel="icon" type="image/png" href="favicon.png" />
   <meta name="Description" content="Мишки из искусственных 3D роз дешево с бесплатной доставкой">
 <meta name="Keywords" content="мишки из роз, розы, цветы, мишки, тедди, тедди бир, teddy bear, mishka, rose teddies, rosemary, RoseMary, розмари">
 

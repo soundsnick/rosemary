@@ -19,4 +19,52 @@
   }
   .grid-two{ grid-template-columns:  repeat(1, minmax(100px, 1fr))!important;}
   .section-upakovka{ background-size: 100% auto!important;}
+  #up, #ab{display: none;}
+  .section-about{
+    display: block;
+  }
+  .section-whom{
+    display: block;
+    background: #fff;
+  }
+  .about-bloc{
+    margin: 10px;
+    padding: 10px 17px;
+    text-align: left;
+    background: #fff;
+    border-radius: 10px;
+  }
+  .about-bloc::before{
+    background-position: center;
+  }
+  .about-bloc:nth-child(2)::before {
+      content: '';
+      display: block;
+      width: 100px;
+      height: 100px;
+      background-image: url(../images/sos1.png);
+      background-size: cover;
+      margin-right: 15px;
+      float: left;
+  }
+  .about-bloc:nth-child(3)::before {
+      content: '';
+      display: block;
+      width: 100px;
+      height: 100px;
+      background-image: url(../images/sos2.png);
+      background-size: cover;
+      margin-right: 15px;
+      float: left;
+  }
+  .about-bloc:nth-child(4)::before {
+      content: '';
+      display: block;
+      width: 100px;
+      height: 100px;
+      background-image: url(../images/sos3.png);
+      background-size: cover;
+      margin-right: 15px;
+      float: left;
+  }
 }
