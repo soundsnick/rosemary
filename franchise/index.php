@@ -69,7 +69,16 @@
       </div>
     </div>
   </section>
-
+  <section class="section-forms">
+    <div class="container">
+      <h1 class="title">Оставьте контакты и мы свяжемся с вами</h1>
+      <form class="contact" action="mail.php" method="post">
+        <input class="field" type="tel" name="phone" placeholder="+7 700 123 12 34">
+        <input class="field" type="text" name="name" placeholder="Ваше имя">
+        <input class="button" type="submit" value="Заказать звонок">
+      </form>
+    </div>
+  </section>
   <section class="section-three">
     <div class="container">
       <h1 class="title">КОМУ ПРОДАВАТЬ?</h1>
@@ -237,16 +246,7 @@
       </div>
     </div>
   </section>
-  <section class="section-forms">
-    <div class="container">
-      <h1 class="title">Оставьте контакты и мы свяжемся с вами</h1>
-      <form class="contact" action="mail.php" method="post">
-        <input class="field" type="tel" name="phone" placeholder="+7 700 123 12 34">
-        <input class="field" type="text" name="name" placeholder="Ваше имя">
-        <input class="button" type="submit" value="Заказать звонок">
-      </form>
-    </div>
-  </section>
+  
   <section class="section-contact">
     <div class="container">
       <h1 class="contact">По всем вопросам: <br>8 (747) 711 21 51 - Рахат<br>8 (747) 338 90 60 - Санжар</h1>
