@@ -260,3 +260,11 @@ text-shadow: 0 1px 3px rgba(0,0,0,.3);
   line-height: 1.4;
   font-style: italic;
 }
+.button{
+  padding: 15px 20px;
+  background: #E91E63;
+  color: #fff;
+  display: inline-block;
+  margin-top: 50px;
+  border-radius: 10px;
+}
