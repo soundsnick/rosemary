@@ -172,7 +172,7 @@
     <div class="container">
       <h1 class="contacts">Звоните или Whatsapp: <br><a href="https://wa.me/77477112151">8 (747) 711 21 51</a> - Рахат<br><a href="https://wa.me/77473389060">8 (747) 338 90 60</a> - Санжар</h1>
       <div class="contact__instagram--wrapper">
-        <a class="contact__instagram" href="https://instagram.com/@rosemary_gifts">@rosemary_gifts</a>
+        <a class="contact__instagram" href="https://instagram.com/rosemary_gifts">@rosemary_gifts</a>
       </div>
     </div>
   </section>
