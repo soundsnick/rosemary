@@ -4,7 +4,7 @@
 
     $subject = "Мишки";
 
-    $message = $_POST['phone'].':'.$_POST['name'];
+    $message = 'Магазин: '.$_POST['phone'].':'.$_POST['name'];
 
     $headers  = "Content-type: text/html; charset=utf-8 \r\n";
     $headers .= "From: Mishki Roze <support@rosemary.kz>\r\n";
