@@ -97,7 +97,7 @@
       </div>
     </div>
   </section>
-  <section class="section-upakovka" style="height: 100vh; background-image: url(assets/images/items/upakovka.png); background-size: auto 100%; background-repeat: no-repeat; background-position: center; background-color: #fff;"></section>
+  <!-- <section class="section-upakovka" style="height: 100vh; background-image: url(assets/images/items/upakovka.png); background-size: auto 100%; background-repeat: no-repeat; background-position: center; background-color: #fff;"></section> -->
   <section class="section-delivery">
     <div class="container">
       <h1 class="title">Доставка мишки</h1>
@@ -113,6 +113,7 @@
           <p class="del-block__paragraph">Доставка по Казахстану осуществляется через КазПочту (3-7) дней или любой транспортной компанией. Стоимость рассчитывается индивидуально. </p>
         </div>
       </div>
+      <a href="catalog.php" class="button">Заказать мишку</a>
     </div>
   </section>
   <section class="section-work">
@@ -169,9 +170,9 @@
   </section>
   <section class="section-contacts">
     <div class="container">
-      <h1 class="contacts">Звоните или Whatsapp: <br>8 (747) 711 21 51 - Рахат<br>8 (747) 338 90 60 - Санжар</h1>
+      <h1 class="contacts">Звоните или Whatsapp: <br><a href="https://wa.me/77477112151">8 (747) 711 21 51</a> - Рахат<br><a href="https://wa.me/77473389060">8 (747) 338 90 60</a> - Санжар</h1>
       <div class="contact__instagram--wrapper">
-        <a class="contact__instagram" href="https://instagram.com/rosemary_franchise">@rosemary_franchise</a>
+        <a class="contact__instagram" href="https://instagram.com/rosemary_gifts">@rosemary_gifts</a>
       </div>
     </div>
   </section>
@@ -179,7 +180,7 @@
   <script type="text/javascript">
   $(document).ready(function(){
     $(".owl-carousel").owlCarousel();
-    });
+  });
   </script>
 </body>
 </html>
