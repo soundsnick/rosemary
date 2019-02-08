@@ -10,6 +10,10 @@
   <link href="https://fonts.googleapis.com/css?family=Pacifico&amp;subset=cyrillic" rel="stylesheet">
   <link rel="stylesheet" href="assets/stylesheets/master.css">
   <link rel="stylesheet" href="assets/stylesheets/media.css">
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
 </head>
 <body>
   <?php require_once('template/header.php') ?>
@@ -19,7 +23,7 @@
       <h1 class="first-title">Каталог</h1>
       <p class="first-description">Чтобы заказать заполните форму</p>
       <form class="contact" action="mail.php" method="post">
-        <input class="field" type="tel" name="phone" placeholder="+7 700 123 12 34">
+        <input class="field" type="tel" name="phone" placeholder="Ваш телефон">
         <input class="field" type="text" name="name" placeholder="Ваше имя">
         <input class="button" type="submit" value="Заказать звонок">
       </form>
@@ -166,6 +170,12 @@
       </div>
     </div>
   </section>
+  <script>
+    $('a[href="#top"]').click(function(){
+      $(window).scroll().scrollTop(0);
+
+    });
+  </script>
   <?php require_once('template/footer.php') ?>
 </body>
 </html>

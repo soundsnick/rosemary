@@ -29,7 +29,7 @@
       <h1 class="first-title">Подарок, который хочет твоя девушка</h1>
       <p class="first-description">Заполните форму ниже и мы свяжемся с вами как можно быстро</p>
       <form class="contact" action="mail.php" method="post">
-        <input class="field" type="tel" name="phone" placeholder="+7 700 123 12 34">
+        <input class="field" type="tel" name="phone" placeholder="Ваш телефон">
         <input class="field" type="text" name="name" placeholder="Ваше имя">
         <input class="button" type="submit" value="Заказать звонок">
       </form>
@@ -153,7 +153,7 @@
       <p class="contact__description">Оставьте свои контактные данные и наш менеджер
 перезвонит вам через 10 минут</p>
       <form class="contact" action="mail.php" method="post">
-        <input class="field" type="tel" name="phone" placeholder="+7 700 123 12 34">
+        <input class="field" type="tel" name="phone" placeholder="Ваш телефон">
         <input class="field" type="text" name="name" placeholder="Ваше имя">
         <input class="button" type="submit" value="Заказать звонок">
       </form>
