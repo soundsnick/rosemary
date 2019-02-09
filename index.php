@@ -104,7 +104,7 @@
       <div class="grid-two">
         <div class="del-block">
           <img src="assets/images/items/del1.png" alt="" class="del-block__img">
-          <h2 class="del-block__title">По Астане</h2>
+          <h2 class="del-block__title">По Астане, Караганде и Шымкенту</h2>
           <p class="del-block__paragraph">Доставка в день заказа через 2-3 часа курьером до метро или дома. Оплата при получении!</p>
         </div>
         <div class="del-block">
